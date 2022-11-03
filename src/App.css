@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #e4e4e4;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  /* height: 90px; */
+}
+.content {
+  display: flex;
+  flex-direction: row;
+
+  text-align: center;
+  padding: 2px;
+}
+
+.set {
+  font-size: large;
+  font-weight: bolder;
+
+  text-decoration: none;
+  color: rgb(27, 0, 0);
+}
+.set:hover {
+  color: rgb(158, 8, 8);
+}
+
+.braking {
+  width: 100%;
+  height: 100%;
+}
+.ok {
+  display: flex;
+  padding: 20px;
+  justify-content: right;
+  text-decoration: none;
+}
+.contect {
+  padding-top: 44px;
+  /* background-color:rgb(180, 125, 41); */
+  width: 100%;
+
+  height: 669px;
+  display: flex;
+  justify-content: center;
+
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.con {
+  background-color: #dcdcdd;
+  height: 500px;
+  width: 400px;
+  display: flex;
+
+  margin-top: 10px;
+  border-radius: 20px;
+}
+.con img {
+  height: 110px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+.text {
+  color: rgb(0, 0, 0);
+}
+.form {
+  border-radius: 5px;
+  border: 0;
+  padding: 5px 0 7px;
+  border: 2px solid transparent;
+  border-top-color: rgb(102, 99, 117);
+  transition: 1.4s;
+  transition: 1.4s;
+  border: 3px solid #adadad;
+}
+.form:focus {
+  padding: 10px 5px 8px;
+  transition: 0.4s;
+}
+
+.mas {
+  height: 80px;
+  width: 180px;
+  border-radius: 10px;
+}
+.button {
+  /* background-color: #368bd6; */
+  border-radius: 20px;
+  display: flex;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  padding-top: 5px;
+  margin: 10px;
+  margin-left: 60px;
+  padding-left: 5px;
+  /* color: brown; */
+  background: fixed;
+}
+.button:hover{
+  color: #c11010;
+  background-color: #000000;
+}
+.border {
+  padding-left: 110px;
+}
+
+.child2 img {
+  height: 300px;
+  border: 5px solid #555;
+  border-radius: 200px;
+}
+.child2 {
+  padding-left: 50px;
+  padding-top: 30px;
+  padding-right: 20px;
+}
+.heading {
+  color: #140f17;
+}
+
+.icone {
+  width: 100px;
+}
+.ico {
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.style2 {
+  height: 5px;
+  width: 100%;
+
+  background-image: linear-gradient(
+    to right,
+    rgb(85, 255, 0),
+    rgb(199, 241, 46),
+    rgb(206, 18, 231)
+  );
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  padding-top: 53px;
+  background-color: #b9b1c4;
+}
+.cate {
+  width: 80px;
+}
+
+.cta h2 {
+  color: #1b0b25;
+}
+
+
+.yogesh {
+  background-color: #d8d2d2;
+  width: 20%;
+  height: 450px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  border-radius: 20px;
+  padding-left: 5px;
+  margin-left: 5px;
+  border-style: solid;
+
+  margin-left: 140px;
+  box-shadow: 2px 1px rgb(114, 111, 117);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.yogesh img {
+  height: 150px;
+  width: 300px;
+
+  border-radius: 20px;
+}
+.yogesh {
+  padding: 5px;
+}
+.yogesh a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: #c11010;
+}
+.yogesh a:hover {
+  color: rgb(0, 0, 0);
+}
+.ankit {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.sidebar {
+  background-color: #c8c6ca;
+  height: 700px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: fixed;
+  border-right: #2d2020;
+  border-style: groove;
+}
+.sidebar button {
+  background-color: #c8c6ca;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 6px;
+  margin-top: 10px;
+  border: none;
+  padding-left: 1px;
+}
+.sidebar button:hover {
+  transform: scale(1.3);
+  color: rgb(198, 25, 25);
+}
+.bar {
+  background-color: #000000;
+  height: 2px;
+}
+.braking p {
+  padding-top: 5px;
+  position: relative;
+  font-family: Impact, sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  background: linear-gradient(
+    90deg,
+    #192142,
+    rgb(82, 18, 221),
+    rgb(28, 18, 55)
+  );
+  background-repeat: no-repeat;
+  background-size: 80%;
+  /* animation: animate 5s infinite; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(173, 20, 20, 0);
+}
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+.head {
+  position: fixed;
+  width: 100%;
+}
+.about {
+  background-image: url("./news.png");
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.total {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+hr{
+  background-color: #000000;
+
+
+}
+.cardbox{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
